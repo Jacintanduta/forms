@@ -1,109 +1,56 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-
-header h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.content {
-    padding: 20px;
-}
-
-.paragraphs {
-    margin-bottom: 20px;
-}
-
-.images img {
-    width: 200px;
-    height: auto;
-    margin-right: 10px;
-}
-
-.form {
-    padding: 40px;
-    margin-bottom: 20px;
-}
-
-.form h2 {
-    margin-bottom: 10px;
-}
-
-.form input[type="text"],
-.form input[type="email"],
-.form input[type="number"],
-.form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.form input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.form input[type="submit"]:hover {
-    background-color: #555;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-.social-media a {
-    margin-right: 10px;
-}
-
-.btn {
-    color: #fff;
-    background-color: blue;
-    height: 30px;
-    width: 100px;
-    border-radius: 10px;
-}
-
-.btnCancel {
-    color: #fff;
-    background-color: red;
-    height: 30px;
-    width: 100px;
-    border-radius: 8px;
-}
-
-.buttons {
-    justify-content: space-around;
-    align-items: center;
-}
+    /* Header Styling */
+    header {
+      background-color: #8383ec;
+      padding: 20px;
+      color: #f0f0f0;
+    }
+    
+    /* Introduction Section */
+    .introduction {
+      background-color: #f0f0f0;
+      margin: 20px;
+      padding: 20px;
+    }
+    
+    /* Skills Display */
+    .skills {
+      padding: 10px;
+    }
+    
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .skills li {
+      border: 1.5px solid #5b50f2;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    /* Contact Information */
+    .contact {
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+    .social {
+        font-size: 20px;
+    }
+    .social a{
+        margin-right: 10px;
+        color: #007bff;
+    }
+    .social a:hover {
+        color: #0056b3; 
+      }
+    
+    /* Responsive Design */
+    @media screen and (max-width: 600px) {
+      .introduction, .contact {
+        margin: 10px;
+      }
+      .skills li {
+        margin-bottom: 5px;
+      }
+    }
+  
